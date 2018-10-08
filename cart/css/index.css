@@ -1,0 +1,73 @@
+body {
+font-family: Arial, Tahoma, Verdana, Helvetica;
+margin: auto;
+color: #333333;
+font-size: 13px;
+width: 100%;
+background: url(../images/bg/final.jpg) fixed;
+overflow-x: hidden;
+}
+
+#wrapper {
+width:1100px;
+background-color:#ffffff fixed;
+margin:0 auto;
+}
+
+#login_form {
+width:450px;
+margin:208px 76px 30px 301px;
+text-align:center;
+background-color:#ffffff;
+border-radius:30px;
+-webkit-border-radius:30px;
+-moz-border-radius:30px;
+-o-border-radius:30px;
+box-shadow:5px 5px 10px #000;
+-webkit-box-shadow:5px 5px 5px #000;
+-moz-box-shadow:5px 5px 5px #000;
+-o-box-shadow:5px 5px 5px #000;
+}
+
+#login_form b {
+color:#343232;
+font-size:40px;
+}
+
+.txt_box {
+width:250px;
+border-radius:30px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+-o-border-radius:4px;
+font-size:19px;
+text-indent:5px;
+}
+
+.login_button {
+width:250px;
+border-radius:30px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+-o-border-radius:4px;
+font-size:18px;
+margin-bottom:30px;
+background-color:#36FF54;
+font-size:19px;
+cursor:pointer;
+color:#000000;
+}
+
+.login_button:hover {
+width:250px;
+border-radius:30px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+-o-border-radius:4px;
+font-size:18px;
+margin-bottom:30px;
+background-color:#50be3b;
+font-size:19px;
+cursor:pointer;
+color:#000000;
+}

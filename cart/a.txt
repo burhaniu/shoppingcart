@@ -1,0 +1,6 @@
+
+          <li><a href="faq.php">FAQ</a></li>
+          <li><a href="news_event.php">News and Event</a></li>
+		  
+		  
+| <a href="faq.php">FAQ</a> | <a href="news_event.php">News and Event</a>

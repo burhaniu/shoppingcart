@@ -1,0 +1,32 @@
+<form method="POST">
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="100%">
+<textarea rows="12" name="charcount" cols="60" wrap="virtual"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%"><div align="right"><p><input type="button" value="Calculate Characters"
+      onClick="countit(this)"> <input type="text" name="displaycount" size="20"></p>
+      <div align="center"><center><p>This free script provided by
+      <a href="http://javascriptkit.com">JavaScript
+      Kit</a></p>
+      </center></div></div></td>
+    </tr>
+  </table>
+
+</form>
+
+<script language="JavaScript">
+
+function countit(what){
+
+//Character count script- by javascriptkit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+//Credit must stay intact for use
+
+formcontent=what.form.charcount.value
+what.form.displaycount.value=formcontent.length
+}
+</script>
